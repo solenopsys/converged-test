@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "target": "es2020",
+    "newLine": "LF",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "jsxImportSource": "@solenopsys/converged-renderer",
+    "outDir": "./dist",
+    "module": "commonjs"
+  },
+  "include": ["src/index.ts", "src/types.ts"]
+}

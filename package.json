@@ -1,0 +1,48 @@
+{
+  "name": "@solenopsys/converged-test",
+  "version": "0.0.1",
+  "description": "Simple and complete Solid testing utilities that encourage good testing practices.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+  },
+  "dependencies": {
+    "@testing-library/dom": "^9.3.4",
+    "global-jsdom": "^24.0.0"
+  },
+  "devDependencies": {
+    "@solenopsys/converged-router": "latest",
+    "@solenopsys/converged-renderer": "latest",
+    "@solenopsys/converged-reactive": "latest",
+    "@testing-library/jest-dom": "^6.4.0",
+
+    "@testing-library/user-event": "^14.5.2",
+    "jsdom": "latest",
+    "typescript": "latest",
+    "@types/bun": "^1.0.0"
+  },
+  "peerDependencies": {
+    "@solenopsys/converged-router": "latest",
+    "@solenopsys/converged-renderer": "latest",
+    "@solenopsys/converged-reactie": "latest"
+  },
+  "peerDependencyMeta": {
+    "@solidjs/router": {
+      "optional": true
+    }
+  }
+}
+
+
+
+
