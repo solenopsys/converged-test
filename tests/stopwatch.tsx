@@ -1,6 +1,6 @@
 import userEvent from "@testing-library/user-event";
 import $ from "@solenopsys/converged-reactive";
-import { screen, render } from "..";
+import { screen, render } from "../src/old";
 import {vi,test, expect } from "bun:test";
 
 function StopWatch() {

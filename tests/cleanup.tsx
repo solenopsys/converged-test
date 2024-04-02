@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom/vitest";
 import {  render as soildRender } from "@solenopsys/converged-renderer";
-import { cleanup, render } from "..";
+import { cleanup, render } from "../src/old";
 import { describe, test, jest, expect, vi } from "bun:test";
 
 test("cleans up the document", () => {

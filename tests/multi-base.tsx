@@ -1,4 +1,4 @@
-import { render } from "..";
+import { render } from "../src/old";
 import { beforeAll,afterAll, test,  expect } from "bun:test";
 // These are created once per test suite and reused for each case
 let treeA: HTMLDivElement;

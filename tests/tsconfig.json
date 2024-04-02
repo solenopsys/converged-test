@@ -3,5 +3,5 @@
   "compilerOptions": {
     "types": ["@testing-library/jest-dom"]
   },
-  "include": ["./*.tsx"]
+  "include": ["./*.tsx", "auto-cleanup.ts", "auto-cleanup.ts"]
 }

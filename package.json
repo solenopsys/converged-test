@@ -14,18 +14,16 @@
   "files": [
     "dist"
   ],
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
     "@testing-library/dom": "^9.3.4",
-    "global-jsdom": "^24.0.0"
+    "global-jsdom": "^24.0.0",
+    "@solenopsys/converged-router": "latest",
+    "@solenopsys/converged-renderer": "1.0.11",
+    "@solenopsys/converged-reactive": "latest"
   },
   "devDependencies": {
-    "@solenopsys/converged-router": "latest",
-    "@solenopsys/converged-renderer": "latest",
-    "@solenopsys/converged-reactive": "latest",
     "@testing-library/jest-dom": "^6.4.0",
-
     "@testing-library/user-event": "^14.5.2",
     "jsdom": "latest",
     "typescript": "latest",
@@ -33,8 +31,8 @@
   },
   "peerDependencies": {
     "@solenopsys/converged-router": "latest",
-    "@solenopsys/converged-renderer": "latest",
-    "@solenopsys/converged-reactie": "latest"
+    "@solenopsys/converged-renderer": "1.0.11",
+    "@solenopsys/converged-reactive": "latest"
   },
   "peerDependencyMeta": {
     "@solidjs/router": {
@@ -42,7 +40,3 @@
     }
   }
 }
-
-
-
-

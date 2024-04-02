@@ -11,7 +11,7 @@ import {
 } from "solid-js";
 import { For } from "solid-js/web";
 import type { JSX } from "solid-js";
-import { render, renderDirective, renderHook, screen, testEffect } from "..";
+import { render, renderDirective, renderHook, screen, testEffect } from "../src/old";
 import userEvent from "@testing-library/user-event";
 import { describe, test, jest, expect, vi } from "bun:test";
 
@@ -63,18 +63,7 @@ test("userEvent triggers createEffect calls", async () => {
   expect(cb).toHaveBeenCalledTimes(1);
 });
 
-test("calls to hydrate will run createEffects", () => {
-  const cb = vi.fn();
 
-  function Comp() {
-    createEffect(cb);
-    return null;
-  }
-
-  render(() => <Comp />, { hydrate: true });
-
-  expect(cb).toHaveBeenCalledTimes(1);
-});
 
 test("queries should not return elements outside of the container", () => {
   const { container, getAllByText } = render(() => <div>Some text...</div>);

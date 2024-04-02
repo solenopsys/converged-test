@@ -1,5 +1,5 @@
 import { Dynamic } from "@solenopsys/converged-renderer";
-import { render, fireEvent } from "..";
+import { render, fireEvent } from "../src/old";
 import userEvent from "@testing-library/user-event";
 import {  test, describe, expect, vi ,Mock} from "bun:test";
 

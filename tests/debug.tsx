@@ -1,5 +1,5 @@
 import { beforeEach,afterEach, test, jest, expect, vi } from "bun:test";
-import { screen, render } from "..";
+import { screen, render } from "../src/old";
 
 beforeEach(() => {
   vi.spyOn(console, "log").mockImplementation(() => {});

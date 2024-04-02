@@ -1,5 +1,5 @@
 import $ from "@solenopsys/converged-reactive";
-import { render } from "..";
+import { render } from "../src/old";
 import { Route, useParams } from "@solidjs/router";
 import {describe,it, expect } from "bun:test";
 

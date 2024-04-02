@@ -1,6 +1,6 @@
 import { beforeEach,afterEach, test, jest, expect, vi } from "bun:test";
 import { useResource, If } from "@solenopsys/converged-renderer";
-import { screen, render, waitForElementToBeRemoved } from "..";
+import { screen, render, waitForElementToBeRemoved } from "../src/old";
 
 const fetchAMessage = () =>
   new Promise<{ returnedMessage: string }>(resolve => {
